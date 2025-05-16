@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/api/hello')
 def hello():
     return 'Hello Sanaz,Welcom to your new Docker Flask App!'
 
